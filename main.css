@@ -21,19 +21,16 @@ header {
 }
 
 .logo {
-	position: relative;
 	order: 1;
 	background-color: red;
 }
 
 .title {
-	position: relative;
 	order: -1;
 	background-color: green;
 }
 
 .menu {
-	position: relative;
 	background-color: yellow;
 	align-self: flex-end;
 	display; flex;
