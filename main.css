@@ -21,20 +21,40 @@ header {
 }
 
 .logo {
-	order: 1;
-	background-color: red;
+	font-family: 'Nixie One', sans-serif;
+	font-size: 3em;
+	color: blue;
+	order: -1;
 }
 
 .title {
-	order: -1;
+	font-family: 'Open Sans Condensed', sans-serif;
+	order: -2;
 	background-color: green;
 }
 
 .menu {
+	width: 300px;
+	padding: 0px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	order: 1;
 	background-color: yellow;
-	align-self: flex-end;
-	display; flex;
+	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
+}
+
+.arrow {
+	width: 3em;
+	height: 3em;
+}
+
+.links {
+	
+}
+
+.content {
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /*RESPONSIVE*/
