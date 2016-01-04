@@ -6,14 +6,15 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 0;
+	margin: 0;
 }
 
 .work {
-	height: 100vh;
 	background-color: darkgrey;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 0;
+	margin: 0;
 }
 
 .contact {
@@ -22,6 +23,11 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 0;
+}
+
+img .web {
+	max-width: 50%;
+	height: auto;
 }
 
 /*FLEX*/
@@ -75,6 +81,39 @@ header {
 
 .content {
 	font-family: 'Open Sans Condensed', sans-serif;
+	width: 75%;
+	text-align: justify;
 }
+
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.social {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*RESPONSIVE*/
