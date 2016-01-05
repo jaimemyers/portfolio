@@ -30,14 +30,11 @@
 }
 
 .web {
-	max-width: 800px;
-	min-width: 100px;
+	max-width: 75vh;
 	height: auto;
 	padding-bottom: 15px;
 	padding-top: 15px;
 }
-
-
 
 /*FLEX*/
 
