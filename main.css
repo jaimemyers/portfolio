@@ -23,12 +23,21 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-img .web {
-	max-width: 50%;
+.web {
+	max-width: 800px;
+	min-width: 100px;
 	height: auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
 }
+
+
 
 /*FLEX*/
 
@@ -73,10 +82,9 @@ header {
 .arrow {
 	width: 3em;
 	height: 3em;
-}
-
-.links {
-	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .content {
@@ -97,6 +105,35 @@ header {
 	flex-direction: row;
 	justify-content: space-between;
 }
+
+.heading {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.library {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.websites {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
 
 
 
