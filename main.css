@@ -162,6 +162,16 @@ footer.social {
 	flex-grow: 2;
 }
 
+.container { 
+    width: 75vh; 
+    height: 180px; 
+    overflow: hidden; 
+    margin: 20px;
+}
+.container img { 
+    width: 100%;
+}
+
 
 
 
