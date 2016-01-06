@@ -127,6 +127,8 @@ i {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+	border-bottom-style: solid;
+	border-bottom: lightgrey;
 }
 
 .library {
@@ -171,6 +173,28 @@ footer.social {
 .container img { 
     width: 100%;
 }
+
+#id {
+	width: 75vh;
+	height: 180px;
+	background-image: url(assets/images/ID.jpg);
+	background-color: red;
+	background-size: cover;
+	background-repeat: no-repeat;
+	line-height: 180px;
+}
+
+.library-header {
+	position: relative;
+	text-align: center;
+	margin: 0px;
+}
+
+.library-header:hover {
+	display: none;
+}
+
+
 
 
 
