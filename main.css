@@ -8,49 +8,15 @@ a:visited {
 	text-decoration: none;
 }
 
-.profile {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
+.content {
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: 75%;
+	text-align: justify;
 }
 
-.about {
-	height: 100vh;
-	background-color: #f25f5c;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 0;
-	margin: 0;
-}
 
-.work {
-	background-color: #028090;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 0;
-	margin: 0;
-}
 
-.contact {
-	height: 100vh;
-	background-color: purple;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.web {
-	width: 75vh;
-	height: auto;
-	padding-bottom: 15px;
-	padding-top: 15px;
-}
-
-/*FLEX*/
+/*HEADER*/
 
 header {
 	height: 100vh;
@@ -97,17 +63,27 @@ header {
 	margin-right: auto;
 }
 
-.content {
-	font-family: 'Open Sans Condensed', sans-serif;
-	width: 75%;
-	text-align: justify;
-}
+
+
+/*ABOUT*/
 
 .about {
+	height: 100vh;
+	background-color: #f25f5c;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.profile {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
 }
 
 .social {
@@ -122,14 +98,26 @@ i {
 	color: #505050;
 }
 
+
+
+/*WORK*/
+
+.work {
+	background-color: #028090;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+
 .heading {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	border-bottom-style: solid;
-	border-bottom: lightgrey;
 }
+
+/*LIBRARY SECTION*/
 
 .library {
 	display: flex;
@@ -138,31 +126,7 @@ i {
 	align-items: center;
 }
 
-.websites {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.links {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-footer {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-footer.social {
-	flex-grow: 2;
-}
+/*TESTING THE IMAGES--preferably on-hover/click will show then hide header and paragraph*/
 
 .container { 
     width: 75vh; 
@@ -193,6 +157,43 @@ footer.social {
 .library-header:hover {
 	display: none;
 }
+
+/*WEB DESIGN SECTION*/
+
+.websites {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.web {
+	width: 75vh;
+	height: auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
 
 
 
