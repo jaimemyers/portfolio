@@ -1,8 +1,22 @@
 /*BASE STYLES*/
+a:link{
+	text-decoration: none;
+	color: #ffe066;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+.profile {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
 
 .about {
 	height: 100vh;
-	background-color: #f45b69;
+	background-color: #f25f5c;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 0;
@@ -53,16 +67,16 @@ header {
 }
 
 .logo {
-	font-family: 'Nixie One', sans-serif;
+	font-family: 'Hind', sans-serif;
 	font-size: 3em;
-	color: blue;
+	color: #f25f5c;
 	order: -1;
 }
 
 .title {
 	font-family: 'Open Sans Condensed', sans-serif;
 	order: -2;
-	background-color: green;
+	color: #ffe066;
 }
 
 .menu {
@@ -70,7 +84,6 @@ header {
 	padding: 0px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	order: 1;
-	background-color: yellow;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -143,6 +156,10 @@ footer {
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
+}
+
+footer.social {
+	flex-grow: 2;
 }
 
 
