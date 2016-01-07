@@ -138,27 +138,18 @@ i {
     width: 100%;
 }
 
-#id {
-	max-width: 940px;
-	width: 100%;
-	height: 180px;
-	margin-left: 25px;
-	margin-right: 25px;
-	background-image: url(assets/images/ID.jpg);
-	color: red;
-	background-size: cover;
-	background-repeat: no-repeat;
-	line-height: 180px;
-}
-
 .library-header {
 	position: relative;
 	text-align: center;
 	margin: 0px;
 }
 
-.library-header:hover {
-	display: none;
+.lib {
+	max-width: 940px;
+	width: 100%;
+	height: auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
 }
 
 /*WEB DESIGN SECTION*/
@@ -170,7 +161,7 @@ i {
 	align-items: center;
 }
 
-#gallery {
+.gallery {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -200,24 +191,6 @@ footer {
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
