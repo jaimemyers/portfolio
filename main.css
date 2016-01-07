@@ -9,7 +9,7 @@ a:visited {
 }
 
 .content {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	width: 75%;
 	text-align: justify;
 }
@@ -40,7 +40,7 @@ header {
 }
 
 .title {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	order: -2;
 	color: #ffe066;
 }
@@ -48,7 +48,7 @@ header {
 .menu {
 	width: 300px;
 	padding: 0px;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	order: 1;
 	display: flex;
 	flex-direction: row;
