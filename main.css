@@ -139,10 +139,13 @@ i {
 }
 
 #id {
-	width: 75vh;
+	max-width: 940px;
+	width: 100%;
 	height: 180px;
+	margin-left: 25px;
+	margin-right: 25px;
 	background-image: url(assets/images/ID.jpg);
-	background-color: red;
+	color: red;
 	background-size: cover;
 	background-repeat: no-repeat;
 	line-height: 180px;
@@ -167,15 +170,20 @@ i {
 	align-items: center;
 }
 
-.links {
+#gallery {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding: 0;
+	list-style: none;
 }
 
 .web {
-	width: 75vh;
+	max-width: 940px;
+	width: 100%;
 	height: auto;
 	padding-bottom: 15px;
 	padding-top: 15px;
@@ -216,3 +224,24 @@ footer {
 
 
 /*RESPONSIVE*/
+
+@media (min-width: 768px){
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
