@@ -1,0 +1,56 @@
+/* Responsive styles */
+
+
+/* Desktop */
+@media only screen and (min-width: 960px) {
+  section#about {
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    padding: 20px 70px;
+  }
+
+  div#about div.title-container {
+    width: 20%;
+  }
+
+  div#about div.content {
+    margin-top: 0;
+    width: 60%;
+    height: 100%;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  section#about div.content p, div.content div.social {
+    width: 100%;
+  }
+
+
+  section#work {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+  }
+
+  section#work div.content {
+    ordre: 1;
+    width: 70%;
+  }
+  section#work div.title-container {
+    order: 2;
+    width:30%;
+  }
+
+  section#work div.content p, div.content div.social {
+    width: 100%;
+  }
+
+
+
+
+
+
+}

@@ -7,11 +7,35 @@ a:link{
 a:visited {
 	text-decoration: none;
 }
-
-.content {
+body {
 	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+p {
 	width: 75%;
 	text-align: justify;
+}
+
+section {
+	padding: 20px;
+}
+
+section h2 {
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	color: #ffe066;
+	font-size: 4em;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #ffe066;
+	font-size: 2em;
+
 }
 
 
@@ -32,6 +56,12 @@ header {
 	justify-content: space-around;
 }
 
+ul.menu li {
+	min-width: 42px;
+	text-align: center;
+}
+
+
 .logo {
 	font-family: 'Hind', sans-serif;
 	font-size: 3em;
@@ -39,11 +69,12 @@ header {
 	order: -1;
 }
 
-.title {
+h1 {
 	font-family: 'Roboto', sans-serif;
 	order: -2;
 	color: #ffe066;
 }
+
 
 .menu {
 	width: 300px;
@@ -68,26 +99,42 @@ header {
 
 /*ABOUT*/
 
-.about {
-	height: 100vh;
+#about {
 	background-color: #f25f5c;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 0;
 	margin: 0;
+	min-height: 400px;
+/*	display: flex;
+*/	/*flex-direction: column;
+	justify-content: space-around;
+	align-items: center;*/
+}
+
+
+
+div.title-container {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 	align-items: center;
 }
 
-.profile {
+div.content {
+	width: 100%;
+	margin-top: 53px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+section#about div.title-container img {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
 }
 
 .social {
+	margin-top: 37px;
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-around;
@@ -103,20 +150,13 @@ i {
 
 /*WORK*/
 
-.work {
+#work {
 	background-color: #028090;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 0;
 	margin: 0;
 }
 
-.heading {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-}
 
 /*LIBRARY SECTION*/
 
@@ -203,19 +243,3 @@ footer {
 	
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

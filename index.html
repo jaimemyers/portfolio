@@ -8,9 +8,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Jaime Myers | Librarain and Web Designer</title>
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
     </head>
     
     <body>
@@ -42,32 +42,30 @@
         </header>
 
 <!--About section-->
-        <a name="about"><section class="about"></a>
-            <div class="heading">
-                <h1>About</h1>
-            </div>
-            <div class="photo">
-                <img src="assets/images/profile.jpg" alt="profile photo" class="profile">
+        <section id ="about">
+            <div class="title-container"> 
+                <h2>About</h2>
+                <img src="assets/images/profile.jpg" alt="profile photo">
             </div>
 <!--paragraph about me-->
             <div class="content">
                 <p>Hi, my name is Jaime. I'm a librarian by day and dabble in web design by night. It's been a roundabout journey getting here. I collected degrees like they were Happy Meal toys for a while. If anyone cares, I majored in History, English, and International Studies—French, then went and got a niche M.A. in Medieval Studies. Turns out, that doesn't pay well, so I topped it all off with a M.S. in Information Sciences. *Cough* nerd *cough*.</p>
                 <p>For the two of you still reading, I'm on the hunt for a job. Libraries, IT, web design — I've got the skills if you've got the need. </p>
                 <p>Want to get in touch? Hit one of the icons below.</p>  
-            </div>
-            <div class="social">
-<!--add social media buttons and links--> 
-                <a href="mailto:jaime.michelle.myers@gmail.com"><i class="fa fa-envelope-square" alt="email"></i></a>
-                <a href="https://facebook.com/jaimemmyers"><i class="fa fa-facebook-official" alt="facebook"></i></a>
-                <a href="https://github.com/jaimemyers"><i class="fa fa-github-alt" alt="github"></i></a>
-                <a href="https://www.linkedin.com/in/jaime-myers-37688a46"><i class="fa fa-linkedin-square" alt="linkedin"></i></a> 
+                <div class="social">
+    <!--add social media buttons and links--> 
+                    <a href="mailto:jaime.michelle.myers@gmail.com"><i class="fa fa-envelope-square" alt="email"></i></a>
+                    <a href="https://facebook.com/jaimemmyers"><i class="fa fa-facebook-official" alt="facebook"></i></a>
+                    <a href="https://github.com/jaimemyers"><i class="fa fa-github-alt" alt="github"></i></a>
+                    <a href="https://www.linkedin.com/in/jaime-myers-37688a46"><i class="fa fa-linkedin-square" alt="linkedin"></i></a> 
+                </div>
             </div>
         </section>
 
 <!--Work section-->
-        <a name="work"><section class="work"></a>
-            <div class="heading">
-                <h1>Work</h1>
+        <section id="work">
+            <div class="title-container">
+                <h2>Work</h2>
                 <a href="cv.pdf">Download my CV</a>
                 <div class="content">
                     <p>Over the last 10 years, I've worked in libraries, marketing and PR, web design, and taught undergraduate classes. I really enjoy doing things that use both sides of my brain — things that allow me to be creative, while also being technical. I'm also constantly learning. My next big project is teaching myself SQL or maybe PHP. I'll have to flip a coin.</p>
@@ -75,36 +73,39 @@
                 </div>
             </div>
 <!--THE LIBRARY BIT NEEDS A LOT OF WORK-DON'T KNOW EXACTLY HOW TO PRESENT THE INFO. THUMBNASILS OF PROJECTS? LIST?-->
-            <div class="library">
-                <h2>Library and IT</h2>
-                <div class="wrapper">
-                    <ul class="gallery">
-                        <li>
-                            <img src="assets/images/ID.jpg" alt="instructional design and reference" class="lib">
-                        </li>
-                        <li>
-                            <img src="assets/images/IT.jpg" alt="information technology" class="lib">
-                        </li>
-                        <li>
-                            <img src="assets/images/outreach.jpg" alt="library outreach and marketing" class="lib">
-                        </li>
+            <div class="content">
+                <div class="library">
+                    <h3>Library and IT</h3>
+                    <div class="wrapper">
+                        <ul class="gallery">
+                            <li>
+                                <img src="assets/images/ID.jpg" alt="instructional design and reference" class="lib">
+                            </li>
+                            <li>
+                                <img src="assets/images/IT.jpg" alt="information technology" class="lib">
+                            </li>
+                            <li>
+                                <img src="assets/images/outreach.jpg" alt="library outreach and marketing" class="lib">
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="websites">
-                <h2>Web Design</h2>
-                <p>Built with HTML5, CSS3, JS, and French press coffee black.</p>
-                <div class="wrapper">
-                    <ul class="gallery">
-                        <li>
-                            <a href="***"><img src="assets/placeholders/sample01.jpg" class="web"></a>
-                        </li>
-                        <li>
-                            <a href="***"><img src="assets/placeholders/sample02.jpg" class="web"></a>
-                        </li>
-                        <li>
-                            <a href="***"><img src="assets/placeholders/sample03.jpg" class="web"></a>
-                        </li>
-                    </ul>
+                <div class="websites">
+                    <h3>Web Design</h3>
+                    <p>Built with HTML5, CSS3, JS, and French press coffee black.</p>
+                    <div class="wrapper">
+                        <ul class="gallery">
+                            <li>
+                                <a href="***"><img src="assets/placeholders/sample01.jpg" class="web"></a>
+                            </li>
+                            <li>
+                                <a href="***"><img src="assets/placeholders/sample02.jpg" class="web"></a>
+                            </li>
+                            <li>
+                                <a href="***"><img src="assets/placeholders/sample03.jpg" class="web"></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
