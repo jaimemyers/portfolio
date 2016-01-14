@@ -7,6 +7,7 @@ a:link{
 a:visited {
 	text-decoration: none;
 }
+
 body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
@@ -44,8 +45,7 @@ h3 {
 
 header {
 	height: 100vh;
-	background-image: url(assets/images/background.jpg);
-	background-color: lightblue;
+	background-image: url(../assets/images/background.jpg);
 	background-size: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;

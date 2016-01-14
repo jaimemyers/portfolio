@@ -24,6 +24,10 @@
     align-content: center;
   }
 
+  #about div.content {
+    background-color: #fff;
+  }
+
   section#about div.content p, div.content div.social {
     width: 100%;
   }
@@ -36,7 +40,7 @@
   }
 
   section#work div.content {
-    ordre: 1;
+    order: 1;
     width: 70%;
   }
   section#work div.title-container {
