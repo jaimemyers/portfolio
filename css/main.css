@@ -50,6 +50,8 @@ header {
 	background-size: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 	padding: 0;
 }
 
@@ -244,15 +246,4 @@ footer {
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
-}
-
-
-
-
-
-/*RESPONSIVE*/
-
-@media (min-width: 768px){
-	
-
 }
