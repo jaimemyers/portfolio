@@ -24,31 +24,11 @@
     align-content: center;
   }
 
-  #about div.content {
-    background-color: #fff;
-  }
-
   section#about div.content p, div.content div.social {
     width: 100%;
   }
 
-
-  section#work {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 20px;
-  }
-
-  section#work div.content {
-    order: 1;
-    width: 70%;
-  }
-  section#work div.title-container {
-    order: 2;
-    width:30%;
-  }
-
-  section#work div.content p, div.content div.social {
+  div.content div.social {
     width: 100%;
   }
 
