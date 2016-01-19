@@ -15,8 +15,7 @@ body {
 }
 
 p {
-	width: 75%;
-	text-align: justify;
+	
 }
 
 section {
@@ -114,45 +113,49 @@ h1 {
 
 /*ABOUT*/
 
-#about {
-	background-color: #f25f5c;
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin: 0;
-	min-height: 400px;
-/*	display: flex;
-*/	/*flex-direction: column;
-	justify-content: space-around;
-	align-items: center;*/
+#container2 {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+	background:#ffa7a7; /* column 2 background colour */
+}
+#container1 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:50%;
+	background:#fff689; /* column 1 background colour */
+}
+#col1 {
+	float:left;
+	width:46%;
+	position:relative;
+	left:52%;
+	overflow:hidden;
+}
+#col2 {
+	float:left;
+	width:46%;
+	position:relative;
+	left:56%;
+	overflow:hidden;
 }
 
-
-
-div.title-container {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-div.content {
-	width: 100%;
-	margin-top: 53px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-section#about div.title-container img {
+#col1 img {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-bottom: 53.120px;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
+    text-align: center;
 }
 
 .social {
 	margin-top: 37px;
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-around;
+	display: block;
 	font-size: 30px;
 }
 
@@ -161,80 +164,149 @@ i {
 	color: #505050;
 }
 
-
-
-/*WORK*/
-
-#work {
-	background-color: #028090;
-	background-repeat: no-repeat;
+/*#about {
+    display: block;
+	background-color: #f25f5c;
 	background-size: cover;
 	margin: 0;
 }
 
-
-/*LIBRARY SECTION*/
-
-.library {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-}
-
-/*TESTING THE IMAGES--preferably on-hover/click will show then hide header and paragraph*/
-
-.container { 
-    width: 75vh; 
-    height: 180px; 
-    overflow: hidden; 
-    margin: 20px;
-}
-.container img { 
+#container2 {
+    display: block;
+    clear: left;
+    float: left;
     width: 100%;
+    overflow: hidden;
+    background: #f25f5c;
 }
 
-.library-header {
-	position: relative;
-	text-align: center;
-	margin: 0px;
+#container1 {
+    display: block;
+    float: left;
+    width: 100%;
+    position: relative;
+    right: 50%;
 }
 
-.lib {
-	max-width: 940px;
-	width: 100%;
-	height: auto;
-	padding-bottom: 15px;
-	padding-top: 15px;
+
+.about_container {
+    float: left;
+    width: 46%;
+    position: relative;
+    left: 52%;
+    overflow: hidden;
+    display: block;
 }
 
-/*WEB DESIGN SECTION*/
 
-.websites {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+.about_content {
+    float: left;
+    width: 46%;
+    position: relative;
+    left: 56%;
+    overflow: hidden;
+    display: block;
 }
 
-.gallery {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin-left: 25px;
-	margin-right: 25px;
-	padding: 0;
-	list-style: none;
+
+
+.about_container img {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    text-align: center;
 }
 
-.web {
-	max-width: 940px;
-	width: 100%;
-	height: auto;
-	padding-bottom: 15px;
-	padding-top: 15px;
+
+
+.about_content p {
+display: block;
 }
+
+.social {
+	margin-top: 37px;
+	display: block;
+	font-size: 30px;
+}
+
+i {
+	margin: 15px;
+	color: #505050;
+} 
+*/
+
+
+
+/*Skills*/
+
+#projects {
+    clear: both;
+}
+.skill {
+ 
+}
+
+.dot_fill {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border: black solid;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: black solid;
+}
+
+.skill_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.skill_wrap p {
+    font-size: 3em;
+    padding: 15px 20px;
+    background-color: grey;
+    border-radius: 15px 0px 15px 0px;
+    flex-basis: auto;
+}
+
+/*Projects*/
+
+#pie {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.project_wrap ul li {
+    margin-left: 30px;
+}
+
+#projects div img {
+    display: inline;
+    float: left;
+    margin-right: 40px;
+    width: 200px;
+    height: auto;
+    clear: both;
+}
+
+.project_wrap {
+    display: inline;
+}
+
+
 
 
 
