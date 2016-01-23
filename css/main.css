@@ -118,81 +118,36 @@ h1 {
 	background-size: cover;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
-    width: 100%;
+    width: calc(100%-40px);
+    padding: 60px;
 }
 
-#about_header {
-    width: 50%;
-}
-
-#about_content {
-    width: 50%;
-}
-
-
-
-
-/*#about_wrapper {
-    background-color: #f25f5c;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#container2 {
-	clear:left;
-	float:left;
-	width:100%;
-	overflow:hidden;
-	background:#f25f5c;
-}
-#container1 {
-	float:left;
-	width:100%;
-	position:relative;
-	right:50%;
-	background:#f25f5c;
-}
-#col1 {
-	float:left;
-	width:46%;
-	position:relative;
-	left:52%;
-	overflow:hidden;
-}
-#col2 {
-	float:left;
-	width:46%;
-	position:relative;
-	left:56%;
-	overflow:hidden;
+.bio-title, .bio-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
+    justify-content: center;
+    width: 40%;
 }
 
-#col1 h2 {
-    text-align: center;
-} */
+.bio-content p {
+    text-align: justify;
+}
+
+.bio-title h2 {
+    margin-top: 0;
+}
 
 .profile {
-    display: block;
-    position: relative;
     margin: auto;
-    margin-bottom: 53.120px;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-    text-align: center;
 }
 
 .social {
-	margin-top: 37px;
 	display: block;
     text-align: center;
 	font-size: 30px;
@@ -201,11 +156,6 @@ h1 {
 i {
 	margin: 15px;
 	color: #404040;
-}
-
-#col2 p {
-    text-align: justify;
-    margin-right: 30px;
 }
 
 
@@ -239,22 +189,27 @@ i {
     margin-left: auto;
 }
 
-.project_wrap ul li {
-    margin-left: 30px;
+#project-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-#projects div img {
-    display: inline;
-    float: left;
-    margin-right: 40px;
-    width: 200px;
-    height: auto;
-    clear: both;
+
+#project-wrap div img {
+    height: 200px;
 }
 
-.project_wrap {
-    display: inline;
+#project-wrap div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
 }
+
+
 
 
 
