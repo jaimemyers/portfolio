@@ -28,7 +28,7 @@ section h2 {
 
 h2 {
 	font-family: 'Roboto', sans-serif;
-	color: black;
+	color: #404040;
 	font-size: 4em;
 }
 
@@ -116,9 +116,26 @@ h1 {
 #about {
 	background-color: #f25f5c;
 	background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
 }
 
-#about_wrapper {
+#about_header {
+    width: 50%;
+}
+
+#about_content {
+    width: 50%;
+}
+
+
+
+
+/*#about_wrapper {
     background-color: #f25f5c;
     width: 100%;
     margin-left: auto;
@@ -130,14 +147,14 @@ h1 {
 	float:left;
 	width:100%;
 	overflow:hidden;
-	background:#f25f5c; /* column 2 background colour */
+	background:#f25f5c;
 }
 #container1 {
 	float:left;
 	width:100%;
 	position:relative;
 	right:50%;
-	background:#f25f5c; /* column 1 background colour */
+	background:#f25f5c;
 }
 #col1 {
 	float:left;
@@ -152,7 +169,16 @@ h1 {
 	position:relative;
 	left:56%;
 	overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
 }
+
+#col1 h2 {
+    text-align: center;
+} */
 
 .profile {
     display: block;
@@ -168,20 +194,35 @@ h1 {
 .social {
 	margin-top: 37px;
 	display: block;
+    text-align: center;
 	font-size: 30px;
 }
 
 i {
 	margin: 15px;
-	color: #505050;
+	color: #404040;
+}
+
+#col2 p {
+    text-align: justify;
+    margin-right: 30px;
 }
 
 
 /*Skills*/
 
-img.bar {
-height: 125px;
-width: auto;
+#bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#bar li img {
+    height: 100px;
+    width: auto;
+    margin: 20px;
 }
 
 /*Projects*/
