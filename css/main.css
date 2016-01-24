@@ -35,8 +35,11 @@ h2 {
 h3 {
 	font-family: 'Roboto', sans-serif;
 	color: #f16745;
-	font-size: 2em;
+	font-size: 1.75em;
+}
 
+ul {
+    padding: 0px;
 }
 
 
@@ -177,10 +180,6 @@ i {
 
 /*Projects*/
 
-#projects {
-    clear: both;
-}
-
 #pie {
     display: block;
     width: 500px;
@@ -195,24 +194,42 @@ i {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    width: calc(100%-40px);
+}
+
+#project-wrap div {
+    width: 45%;
 }
 
 
 #project-wrap div img {
     height: 200px;
+    max-width: 250px;
+    width: auto;
+}
+
+#project-wrap div h3 {
+    margin: 0;
 }
 
 #project-wrap div {
+    padding: 20px 0px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
+.scholarship {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
-
-
-
+/*EDU*/
 
 
 /*FOOTER*/
