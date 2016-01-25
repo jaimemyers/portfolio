@@ -1,4 +1,9 @@
 /*BASE STYLES*/
+@font-face {
+    font-family: nickainley;
+    src: url(../assets/fonts/nickainley/Nickainley-Normal.otf)
+}
+
 a:link{
 	text-decoration: none;
 	color: #f16745;
@@ -27,9 +32,9 @@ section h2 {
 }
 
 h2 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'nickainley', cursive;
 	color: #404040;
-	font-size: 4em;
+	font-size: 5em;
 }
 
 h3 {
@@ -71,14 +76,13 @@ ul.menu li {
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	font-family: 'Hind', sans-serif;
 	min-width: 60px;
-	font-size: 3em;
-	color: #f16745;
 }
 
 h1 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'nickainley', cursive;
+	color: #f16745;
+    font-size: 8em;
 	color: #f16745;
 }
 
@@ -117,7 +121,7 @@ h1 {
 /*ABOUT*/
 
 #about {
-	background-color: #f25f5c;
+	background-color: #f16745;
 	background-size: cover;
     display: flex;
     flex-direction: row;
@@ -189,6 +193,7 @@ i {
 }
 
 #project-wrap {
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -203,8 +208,8 @@ i {
 
 
 #project-wrap div img {
-    height: 200px;
-    max-width: 250px;
+    height: 175px;
+    max-width: 200px;
     width: auto;
 }
 
@@ -223,21 +228,91 @@ i {
 }
 
 .scholarship {
-    flex-grow: 2;
+    width: calc(100%-40px);
+    margin: 40px 40px 40px 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    align-content: center;
+    justify-content: space-between;
 }
+
+.scholarship img {
+    width: 30%;
+}
+
+.scholarship div.wrap {
+    width: 70%;
+}
+
+.wrap ul li i {
+    margin: 0px;
+}
+
+
 
 /*EDU*/
 
+#edu {
+    background-color: #ffc65d;
+}
+
+.edu-wrap {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.edu-wrap div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#edu div i {
+    font-size: 7em;
+}
+
+/*HIRE*/
+
+#hire h3 {
+    font-family: 'nickainley', cursive;
+    font-size: 5em;
+    text-align: center;
+}
+
+#hire {
+    background-color: #404040;
+}
 
 /*FOOTER*/
 
 footer {
+    background-color: #404040;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
+}
+
+.footer_menu {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-social {
+    display: block;
+    text-align: center;
+	font-size: 30px;
+}
+
+.footer-social i {
+    color: #f16745;
 }
