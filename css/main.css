@@ -87,6 +87,7 @@ h1 {
 	width: 500px;
 	padding: 0px;
 	font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 	display: block;
 	position: absolute;
 	margin: 0;
@@ -189,6 +190,10 @@ i {
     background-color: #f6f6f6;
 }
 
+#projects h2 {
+    margin-top: 20.4px;
+}
+
 #pie {
     display: block;
     width: 500px;
@@ -213,7 +218,6 @@ i {
 
 
 #project-wrap div img {
-    height: 175px;
     max-width: 200px;
     width: auto;
 }
@@ -243,6 +247,8 @@ i {
 
 .scholarship img {
     width: 30%;
+    max-width: 100%;
+    height: auto;
 }
 
 .scholarship div.wrap {

@@ -1,3 +1,63 @@
 /* Responsive styles */
 
+@media (max-width: 1150px) {
+  #project-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
 
+  #project-wrap div {
+    width: 75%;
+  }
+
+  #project-wrap div img {
+    max-height: 100%;
+    width: auto;
+  }
+
+  .scholarship {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .scholarship div.wrap h3 {
+    text-align: center;
+  }
+
+  .scholarship img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 980px) {
+  .edu-wrap {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+}
+
+
+@media (max-width: 850px) {
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .bio-content {
+    width: 60%;
+    margin-top: 66.4px;
+  }
+}
