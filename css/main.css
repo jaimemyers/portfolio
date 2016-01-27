@@ -61,6 +61,7 @@ header {
 ul.menu li {
 	min-width: 42px;
 	text-align: center;
+    font-size: 1em;
 }
 
 
