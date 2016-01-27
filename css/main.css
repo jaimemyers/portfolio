@@ -19,10 +19,6 @@ body {
 	margin: 0;
 }
 
-p {
-	
-}
-
 section {
 	padding: 20px;
 }
@@ -168,6 +164,11 @@ i {
 
 /*Skills*/
 
+#skills {
+    background-color: #f6f6f6;
+    border-bottom: thin solid #a8a8a8;
+}
+
 #bar {
     display: flex;
     flex-direction: row;
@@ -183,6 +184,10 @@ i {
 }
 
 /*Projects*/
+
+#projects {
+    background-color: #f6f6f6;
+}
 
 #pie {
     display: block;
@@ -242,6 +247,11 @@ i {
 
 .scholarship div.wrap {
     width: 70%;
+}
+
+.wrap ul li {
+    list-style: circle;
+    margin: 5px 0;
 }
 
 .wrap ul li i {
