@@ -63,6 +63,11 @@
 }
 
 @media (max-width: 420px) {
+    
+    header {
+        background-attachment: scroll;
+    }
+    
     header div.logo h1 {
         font-size: 4em;
     }
