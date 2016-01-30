@@ -50,7 +50,6 @@ ul {
 header {
 	height: 100vh;
 	background-image: url(../assets/images/background.jpg);
-	background-size: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -59,7 +58,6 @@ header {
 }
 
 ul.menu li {
-	min-width: 42px;
 	text-align: center;
     font-size: 1em;
 }
@@ -120,7 +118,6 @@ h1 {
 
 #about {
 	background-color: #f16745;
-	background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

@@ -61,3 +61,46 @@
     margin-top: 66.4px;
   }
 }
+
+@media (max-width: 420px) {
+    header div.logo h1 {
+        font-size: 4em;
+    }
+    
+    ul.menu {
+        width: 90%;
+    }
+    
+    #about {
+        padding: 30px;
+    }
+    
+    .bio-title {
+        width: 100%;
+    }
+    
+    .bio-content {
+        width: 100%;
+    }
+    
+    #bar li img {
+        height: 2.5em;
+        width: auto;
+    }
+    
+    #pie {
+        width: 90%;
+    }
+    
+    #project-wrap div img {
+        width: 30%;
+    }
+    
+    #project-wrap div h3 {
+        font-size: .75em;
+    }
+    
+    .edu-wrap div p {
+        font-size: .75em;
+    }
+}
