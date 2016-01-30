@@ -240,11 +240,7 @@ i {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: space-between;
-}
-
-.scholarship img {
-    margin-left: 20px;
+    justify-content: space-around;
 }
 
 .scholarship div.wrap {
