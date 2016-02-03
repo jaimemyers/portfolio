@@ -62,6 +62,19 @@
   }
 }
 
+/*iPad--fix for header background*/
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  header {
+        background-attachment: scroll;
+    }
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+  header {
+        background-attachment: scroll;
+    }
+}
+
+/*Phones*/
 @media (max-width: 420px) {
     
     header {
