@@ -87,7 +87,6 @@ h1 {
 	padding: 0px;
 	font-family: 'Roboto', sans-serif;
     font-weight: 700;
-	display: block;
 	position: absolute;
 	margin: 0;
 	top: 88%;
@@ -308,6 +307,11 @@ footer {
 	flex-wrap: wrap;
 }
 
+.name {
+    width: 300px;
+    text-align: center;
+}
+
 .footer_menu {
     width: 300px;
     display: flex;
@@ -317,6 +321,7 @@ footer {
 }
 
 .footer-social {
+    width: 300px;
     display: block;
     text-align: center;
 	font-size: 30px;
